@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Po header:</b>
+  <%= @order_line.po_header_id %>
+</p>
+
+<p>
+  <b>Integer:</b>
+  <%= @order_line.integer %>
+</p>
+
+<p>
+  <b>Item:</b>
+  <%= @order_line.item_id %>
+</p>
+
+<p>
+  <b>Integer:</b>
+  <%= @order_line.integer %>
+</p>
+
+<p>
+  <b>Vlrunit:</b>
+  <%= @order_line.vlrUnit %>
+</p>
+
+
+<%= link_to 'Edit', edit_order_line_path(@order_line) %> |
+<%= link_to 'Back', order_lines_path %>

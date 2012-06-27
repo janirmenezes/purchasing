@@ -1,0 +1,16 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  userName: gilberto.holtz
+  passWord: ruby
+  email: gilbertoholtz@mundial.com
+
+two:
+  userName: vitor.renan
+  passWord: ruby
+  email: vitor_renan777@hotmail.com
+
+three:
+  userName: janir.menezes
+  passWord: ruby
+  email: janir.menezes@gmail.com

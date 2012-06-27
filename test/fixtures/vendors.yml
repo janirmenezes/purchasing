@@ -1,0 +1,57 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+1:
+  cnpj: 89904361000176
+  fornecedor: ABRASIVOS SUL LTDA
+  tipo: COMERCIO/INDUSTR
+  telefone: 513524 6142
+2:
+  cnpj: 04405220000237
+  fornecedor: COVENTYA QUIMICA LTDA
+  tipo: INDUSTRIA
+  telefone: 542101 3800
+3:
+  cnpj: 04405220000156
+  fornecedor: COVENTYA QUIMICA LTDA
+  tipo: COMERCIO/INDUSTR
+  telefone: 114055 6600
+4:
+  cnpj: 04405220000318
+  fornecedor: COVENTYA QUIMICA LTDA
+  tipo: INDUSTRIA
+  telefone: 543224 4555
+5:
+  cnpj: 89054050000165
+  fornecedor: FABESUL DISTRIBUIDORA LTDA
+  tipo: COMERCIO
+  telefone: 513357 8000
+6:
+  cnpj: 92664028000141
+  fornecedor: FERRAMENTAS GERAIS COM E IMP SA
+  tipo: COMERCIO/INDUSTR
+  telefone: 513358 1018
+7:
+  cnpj: 92664028004139
+  fornecedor: FERRAMENTAS GERAIS COM E IMP SA
+  tipo: COMERCIO/INDUSTR
+  telefone: 543209 5361
+8:
+  cnpj: 92664028002608
+  fornecedor: FERRAMENTAS GERAIS COM E IMP SA
+  tipo: COMERCIO/INDUSTR
+  telefone: 513358 1018
+9:
+  cnpj: 92664028002780
+  fornecedor: FERRAMENTAS GERAIS COM E IMP SA
+  tipo: COMERCIO/INDUSTR
+  telefone: 
+10:
+  cnpj: 00518270000199
+  fornecedor: RESIMAG IND DE FERRAMENTAS LTDA
+  tipo: COMERCIO
+  telefone: 513361 2640
+11:
+  cnpj: 03530239000161
+  fornecedor: SULFER COMERCIO DE FERROS LTDA
+  tipo: SIMPLES NACIONAL
+  telefone: 513469 6180

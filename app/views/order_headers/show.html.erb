@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Order:</b>
+  <%= @order_header.order %>
+</p>
+
+<p>
+  <b>Vendor:</b>
+  <%= @order_header.vendor_id %>
+</p>
+
+<p>
+  <b>Aviso:</b>
+  <%= @order_header.aviso %>
+</p>
+
+
+<%= link_to 'Edit', edit_order_header_path(@order_header) %> |
+<%= link_to 'Back', order_headers_path %>

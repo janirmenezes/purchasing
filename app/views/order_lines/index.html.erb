@@ -1,0 +1,31 @@
+<h1>Listing order_lines</h1>
+
+<table>
+  <tr>
+    <th>Po header</th>
+    <th>Integer</th>
+    <th>Item</th>
+    <th>Integer</th>
+    <th>Vlrunit</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @order_lines.each do |order_line| %>
+  <tr>
+    <td><%= order_line.po_header_id %></td>
+    <td><%= order_line.integer %></td>
+    <td><%= order_line.item_id %></td>
+    <td><%= order_line.integer %></td>
+    <td><%= order_line.vlrUnit %></td>
+    <td><%= link_to 'Show', order_line %></td>
+    <td><%= link_to 'Edit', edit_order_line_path(order_line) %></td>
+    <td><%= link_to 'Destroy', order_line, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Order line', new_order_line_path %>

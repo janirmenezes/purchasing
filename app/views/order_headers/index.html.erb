@@ -1,0 +1,27 @@
+<h1>Listing order_headers</h1>
+
+<table>
+  <tr>
+    <th>Order</th>
+    <th>Vendor</th>
+    <th>Aviso</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @order_headers.each do |order_header| %>
+  <tr>
+    <td><%= order_header.order %></td>
+    <td><%= order_header.vendor_id %></td>
+    <td><%= order_header.aviso %></td>
+    <td><%= link_to 'Show', order_header %></td>
+    <td><%= link_to 'Edit', edit_order_header_path(order_header) %></td>
+    <td><%= link_to 'Destroy', order_header, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Order header', new_order_header_path %>
