@@ -1,12 +1,8 @@
 Purchasing::Application.routes.draw do
-  
-  get "sessions/index"
 
-  ## INICIO ALTERACAO 001
   get "login" => "sessions#new", :as => "login"
   get "logout" => "sessions#destroy", :as => "logout"
   get "signup" => "users#new", :as => "signup"
-  ## FIM ALTERACAO 001
 
   get "home/index"
 
